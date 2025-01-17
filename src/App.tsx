@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   return (
-    <div>Daily Quest, testing</div>
+    <div>Daily Quest, testing!</div>
   )
 }
 
