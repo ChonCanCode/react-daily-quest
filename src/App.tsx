@@ -1,10 +1,15 @@
 
-import './App.css'
+import {Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ChallengePage from './pages/ChallengePage';
 
-function App() {
-  return (
-    <div>Daily Quest, testing!</div>
-  )
-}
+const App = () => {
+  return(
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/challenge/:day" element={<ChallengePage />} />
+    </Routes>
+  );
+};
 
-export default App
+export default App;
