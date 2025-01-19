@@ -1,0 +1,41 @@
+:root {
+    --background-color: #3D405B;
+    --cambridge-blue-color: #81B29A;
+    --sunset-color: #F2CC8F;
+    --burnt-sienna-color: #E07A5F;
+    --eggshell-color: #F4F1DE;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 5px;
+    background-color: var(--background-color);
+  }
+  
+  h1 {
+    text-align: start;
+    color: var(--eggshell-color);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    text-align: start;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--burnt-sienna-color);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
