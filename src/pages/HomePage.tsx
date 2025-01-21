@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
     const challenges = [
         { day:1, title: 'Introduction to React'},
-        { day:2, title: 'Understanding Props and State'},
+        { day:2, title: 'Setting Up React with VS Codeng Props and State'},
         { day:3, title: 'Handling Events'},
         //Add more challenges as needed
     ];
