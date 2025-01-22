@@ -7,7 +7,6 @@
 }
 
 
-
 body {
     font-family: Arial, sans-serif;
     margin: 5px;
@@ -40,3 +39,16 @@ body {
     text-decoration: underline;
   }
   
+  code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #1e1e3f;
+    color: #a9b7c6;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    display: inline;
+  }

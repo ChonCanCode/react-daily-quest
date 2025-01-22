@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styles/styles.css"
 
 const Day1 = () => {
   // State to manage the greeting message
@@ -61,8 +62,8 @@ const Day1 = () => {
       </div>
       
       {/* Code Example */}
-      <div style={{ marginTop: "20px", backgroundColor: "#f0f4c3", padding: "15px", borderRadius: "8px" }}>
-        <h2 style={{ color: "#5d4037" }}>💻 Code Example:</h2>
+      <div style={{ marginTop: "20px", padding: "15px", borderRadius: "8px" }}>
+        <h2>💻 Code Example:</h2>
         <pre style={{ backgroundColor: "#eceff1", padding: "10px", borderRadius: "6px", overflow: "auto" }}>
           <code>
             {`import React, { useState } from "react";
