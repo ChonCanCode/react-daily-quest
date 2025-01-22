@@ -12,43 +12,21 @@ body {
     margin: 5px;
     padding: 5px;
     background-color: var(--background-color);
-    
-  }
-  
-  h1 {
-    text-align: start;
     color: var(--eggshell-color);
   }
   
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li {
-    margin: 10px 0;
-    text-align: start;
-  }
-  
-  a {
-    text-decoration: none;
-    color: var(--burnt-sienna-color);
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  code {
+  .code {
     white-space: pre-wrap;
     word-wrap: break-word;
-    background-color: #1e1e3f;
-    color: #a9b7c6;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-size: 14px;
-    line-height: 1.5;
+    background-color: black;
+    color: var(--cambridge-blue-color);
+    padding: 20px; /* Increase padding for a larger box */
+    border-radius: 8px; /* Adjust for rounded corners */
+    font-size: 16px; /* Increase font size for better readability */
+    line-height: 1.6; /* Adjust line height */
     overflow-x: auto;
     box-shadow: 0 2px 4px rgba(0,0,0,.1);
-    display: inline;
+    max-width: 90%; /* Adjust as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    display: block; /* Ensure it takes up space as a block element */
   }

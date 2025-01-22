@@ -6,26 +6,20 @@ const Day1 = () => {
   const [name, setName] = useState("");
   
   return (
-    <div style={{ fontFamily: "Arial, sans-serif", padding: "20px" }}>
-      {/* Main Header */}
-      <h1 style={{ color: "#61dafb", fontSize: "2.5rem" }}>🌟 Introduction to React 🌟</h1>
-      
-      {/* Sub-header */}
-      <p style={{ fontSize: "1.2rem", marginTop: "10px" }}>
+    <div>
+      <h1>What is react?</h1>
+      <p>
         Welcome to <strong>Day 1</strong> of learning React! 🎉
       </p>
-      
-      {/* Description Section */}
-      <div style={{ backgroundColor: "#f7f7f7", padding: "15px", borderRadius: "8px" }}>
-        <p style={{ fontSize: "1rem", marginBottom: "8px" }}>
+      <div>
+        <p>
           Today, we’ll explore the building blocks of React: <strong>components</strong>, <strong>JSX</strong>, and <strong>rendering</strong>. 
           React is a JavaScript library for building user interfaces, allowing us to create reusable UI components.
         </p>
-        <p style={{ fontSize: "1rem" }}>
+        <p>
           Your goal is to build a simple interactive component that displays a personalised greeting message.
         </p>
       </div>
-      
       {/* Tasks Section */}
       <div style={{ marginTop: "20px" }}>
         <h2 style={{ color: "#333" }}>🎯 Tasks for Today:</h2>
