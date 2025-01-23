@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import '../styles/styles.css';
 
 const HomePage = () => {
     const challenges = [
@@ -15,8 +15,8 @@ const HomePage = () => {
             <h1>Daily Challenges</h1>
             <ul>
                 {challenges.map((challenge) => (
-                    <li key={challenge.day}>
-                        <Link to={`/challenge/${challenge.day}`}>
+                    <li className="no-bullets" key={challenge.day}>
+                        <Link to={`/challenge/${challenge.day}`} className="class-link">
                         Day {challenge.day}: {challenge.title}
                         </Link>
                     </li>
