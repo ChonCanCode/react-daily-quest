@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/styles.css";
 
 const Day1 = () => {
@@ -17,7 +18,7 @@ const Day1 = () => {
       <p>What sets React apart:</p>
       <ul>
         <li style={{ margin: "30px" }}>
-          <strong>Component-Based Architecture</strong>: React encourages the creation of encapsulated components that manage their own state, allowing you to build complex user interfaces by combining simple components.
+          <strong>Component-Based Architecture</strong>: React encourages the creation of encapsulated <Link to="/components">components</Link> that manage their own state, allowing you to build complex user interfaces by combining simple components.
           <button onClick={toggleExample} className="toggle-button">
             {showExample ? "Hide Example" : "Show Example"}
           </button>
