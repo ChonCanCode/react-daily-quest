@@ -7,7 +7,7 @@ const Day4 = () => {
     <div>
         <h2>1. Inline Styles</h2>
         <p>You can add inline styles directly to elements using the style attribute. This approach uses a JavaScript object to define CSS properties.</p>
-        <div className="code"> {
+        <code> {
             `const divStyle = {
                 color: 'blue',
                 backgroundColor: 'lightgray'
@@ -17,17 +17,17 @@ const Day4 = () => {
                 return <div style={divStyle}>Hello, world!</div>;
               }`
               }
-        </div>
+        </code>
         <p></p>
-        <div  className="code">
+        <code>
             {`function MyComponent() {
             return <div style={{ color: 'blue', backgroundColor: 'lightgray' }}>Hello, world!</div>;
             }`}
-        </div>
+        </code>
 
         <h2>2. CSS Stylesheets</h2>
         <p>You can use traditional CSS files to style your components. Just create a CSS file and import it into your component file.</p>
-        <div className="code"> {
+        <code> {
             `:root {
                     --background-color: #3D405B;
                     --cambridge-blue-color: #81B29A;
@@ -43,18 +43,18 @@ const Day4 = () => {
                     color: var(--eggshell-color);
                 }`
             }
-        </div>
+        </code>
 
         <h2>3. CSS modules</h2>
         <p>CSS Modules allow you to scope your CSS to specific components, avoiding naming conflicts. Create a CSS file with the .module.css extension and import it as a module.</p>
-        <div className="code"> {
+        <code> {
             ` ../style.css
             .myDiv {
                         color: blue;
                         background-color: lightgray;
                      }`
             }
-        </div>
+        </code>
 
         <div className="code"> {
             `import styles from './MyComponent.module.css';
@@ -67,7 +67,7 @@ const Day4 = () => {
 
         <h2>4. Styled Component</h2>
         <p>Styled-components is a popular library for writing CSS-in-JS. It allows you to create styled components with encapsulated styles.</p>
-        <div className="code"> {
+        <code> {
             `  
             import styled from 'styled-components';
             const StyledDiv = styled.div\`
@@ -80,11 +80,11 @@ const Day4 = () => {
             }
             `
             }
-        </div>
+        </code>
 
         <h2>5.CSS-in-JS Libraries</h2>
         <p>Besides styled-components, other libraries like emotion and JSS offer similar capabilities for writing CSS within your JavaScript files.</p>
-        <div className="code"> {
+        <code> {
             `/** @jsxImportSource @emotion/react */
                 import { css } from '@emotion/react';
 
@@ -97,7 +97,7 @@ const Day4 = () => {
                 return <div css={divStyle}>Hello, world!</div>;
                 }`
             }
-        </div>
+        </code>
     </div>
         )};
   export default Day4;
