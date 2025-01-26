@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/styles.css";
+import { Link } from "react-router-dom";
 
 // Define the file structure as a TypeScript type
 type FileNode = {
@@ -171,6 +172,7 @@ const Day0: React.FC = () => {
 
   return (
     <div>
+      <Link to="/">Home Page</Link> 
       <h1>Day 0: Code Review</h1>
       <p>Reviewing Codes from this project</p>
       <div style={{ display: "flex", gap: "20px" }}>

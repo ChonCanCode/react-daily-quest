@@ -11,6 +11,7 @@ const Day1 = () => {
 
   return (
     <div>
+      <Link to="/">Home Page</Link> 
       <h1>Day 1: What is React and what makes it different?</h1>
       <p>
         React is a popular JavaScript library for building user interfaces, primarily developed and maintained by <strong>Facebook</strong>. It focuses on creating reusable UI components, which makes development more efficient and organized.
@@ -18,7 +19,7 @@ const Day1 = () => {
       <p>What sets React apart:</p>
       <ul>
         <li style={{ margin: "30px" }}>
-          <strong>Component-Based Architecture</strong>: React encourages the creation of encapsulated <Link to="/components">components</Link> that manage their own state, allowing you to build complex user interfaces by combining simple components.
+          <strong>Component-Based Architecture</strong>: React encourages the creation of encapsulated <Link to="/Component">components</Link> that manage their own <Link to="/State">state</Link>, allowing you to build complex user interfaces by combining simple components.
           <button onClick={toggleExample} className="toggle-button">
             {showExample ? "Hide Example" : "Show Example"}
           </button>

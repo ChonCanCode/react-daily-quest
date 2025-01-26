@@ -2,6 +2,7 @@ import React from "react";
 
 const Day2 = () => {
   return (
+    
     <div style={{ fontFamily: "Arial, sans-serif", padding: "20px" }}>
       {/* Main Header */}
       <h1 style={{ color: "#61dafb", fontSize: "2.5rem" }}>🌟 Day 2: Setting Up React with VS Code 🌟</h1>
