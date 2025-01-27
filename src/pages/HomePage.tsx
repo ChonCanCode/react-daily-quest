@@ -3,7 +3,7 @@ import '../styles/styles.css';
 
 const HomePage = () => {
     const challenges = [
-        { day:0, title: 'Code review'},
+        { day:0, title: 'React Concepts'},
         { day:1, title: 'What is React?'},
         { day:2, title: 'How to setup React on Window'},
         { day:3, title: 'How the are the files work withn the React project?'},
