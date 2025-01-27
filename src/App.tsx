@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ChallengePage from './pages/ChallengePage';
-import Component from './codex/component';// Import the ComponentPage
+import Component from './codex/Component';// Import the ComponentPage
 import State from './codex/State';
 import Hook from './codex/Hook';
 
