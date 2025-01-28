@@ -10,8 +10,9 @@ const Day0 = () => {
           <li><Link to="/Component">What is Component?</Link></li>
           <li><Link to="/State">What is State?</Link></li>
           <li><Link to="/Hook">What is Hook?</Link></li>
-          <li><Link to="/Hook">What is Dependency?</Link></li>
-          <li></li>
+          <li><Link to="/Dependency">What is Dependency?</Link></li>
+          <li><Link to="/TypeScript">What is TypeScript?</Link></li>
+          <li><Link to="/Vite">What is Vite?</Link></li>
         </ul>
       </>
     );
