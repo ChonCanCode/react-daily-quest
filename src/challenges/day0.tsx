@@ -13,6 +13,7 @@ const Day0 = () => {
           <li><Link to="/Dependency">What is Dependency?</Link></li>
           <li><Link to="/TypeScript">What is TypeScript?</Link></li>
           <li><Link to="/Vite">What is Vite?</Link></li>
+          <li><Link to="/Vite">What is Props?</Link></li>
         </ul>
       </>
     );
