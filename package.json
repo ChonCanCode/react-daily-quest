@@ -1,16 +1,16 @@
 {
-  "homepage":"https://choncancode.github.io/react-daily-quest/",
+  "homepage": "https://choncancode.github.io/react-daily-quest/",
   "name": "react-daily-quest",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-  "build": "tsc && vite build",
-  "dev": "vite",
-  "preview": "vite preview"
-},
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
