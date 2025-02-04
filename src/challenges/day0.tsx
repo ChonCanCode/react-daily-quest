@@ -16,7 +16,7 @@ const Day0 = () => {
           <Link to="/Hook">What is Hook?</Link>
         </li>
         <li>
-          <Link to="/Dependence">What is Dependence?</Link>
+          <Link to="/Dependencies">What is Dependencies?</Link>
         </li>
         <li>
           <Link to="/TypeScript">What is TypeScript?</Link>

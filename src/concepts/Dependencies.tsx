@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
-const Dependence = () => {
+const Dependencies = () => {
   return (
     <>
       <Link to="/">Home Page</Link>
-      <h1>What is Dependence?</h1>
+      <h1>What is Dependencies?</h1>
       <p>
-        In React, dependence often refers to dependencies in various contexts:
+        In React, Dependencies often refers to dependencies in various contexts:
       </p>
 
       <ol>
@@ -64,4 +64,4 @@ const memoizedValue = useMemo(() => count * 2, [count]);
   );
 };
 
-export default Dependence;
+export default Dependencies;

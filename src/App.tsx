@@ -4,7 +4,7 @@ import ChallengePage from "./pages/ChallengePage";
 import Component from "./concepts/Component"; // Import the ComponentPage
 import State from "./concepts/State";
 import Hook from "./concepts/Hook";
-import Dependence from "./concepts/Dependence";
+import Dependencies from "./concepts/Dependencies";
 import TypeScript from "./concepts/TypeScript";
 import Props from "./concepts/Props";
 
@@ -18,7 +18,7 @@ const App = () => {
       <Route path="/State" element={<State />} />
       <Route path="/Hook" element={<Hook />} />
       <Route path="/TypeScript" element={<TypeScript />} />
-      <Route path="/Dependence" element={<Dependence />} />
+      <Route path="/Dependencies" element={<Dependencies />} />
       <Route path="/Props" element={<Props />} />
     </Routes>
   );
