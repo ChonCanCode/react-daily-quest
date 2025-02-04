@@ -25,7 +25,7 @@ const Day0 = () => {
           <Link to="/Vite">What is Vite?</Link>
         </li>
         <li>
-          <Link to="/Vite">What is Props?</Link>
+          <Link to="/Props">What is Props?</Link>
         </li>
       </ul>
     </>

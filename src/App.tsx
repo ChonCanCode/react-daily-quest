@@ -6,6 +6,7 @@ import State from "./concepts/State";
 import Hook from "./concepts/Hook";
 import Dependence from "./concepts/Dependence";
 import TypeScript from "./concepts/TypeScript";
+import Props from "./concepts/Props";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Route path="/Hook" element={<Hook />} />
       <Route path="/TypeScript" element={<TypeScript />} />
       <Route path="/Dependence" element={<Dependence />} />
+      <Route path="/Props" element={<Props />} />
     </Routes>
   );
 };
