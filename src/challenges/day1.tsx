@@ -29,9 +29,7 @@ const Day1 = () => {
                 <p style={{ color: "whitesmoke" }}>
                   🔴<strong>Counter Component</strong>: This component manages its own state using the useState hook. It displays a count value and a button to increment the count.
                 </p>
-                <pre>
-                  {`
-import React, { useState } from 'react';
+                <code>{`import React, { useState } from 'react';
 
 const Counter = () => {
   const [count, setCount] = useState(0);
@@ -45,14 +43,13 @@ const Counter = () => {
 };
 
 export default Counter;
-                  `}
-                </pre>
+                  `}</code>
               </div>
               <div style={{ margin: "30px" }} className="code">
                 <p style={{ color: "whitesmoke" }}>
                   🔴<strong>App Component</strong>: This component combines multiple Counter components to create a more complex user interface. Each Counter component operates independently, demonstrating the encapsulation of state.
                 </p>
-                <pre>
+                <code>
                   {`
 import React from 'react';
 import Counter from './Counter';
@@ -70,13 +67,13 @@ const App = () => {
 
 export default App;
                   `}
-                </pre>
+                </code>
               </div>
             </div>
           )}
         </li>
         <li style={{ margin: "30px" }}>
-          <strong>Virtual DOM</strong>: React uses a virtual DOM to improve performance. Instead of directly manipulating the browser's DOM, React updates a virtual representation of it. When changes occur, it efficiently updates only the parts of the DOM that need to be changed.
+          <strong>Virtual DOM</strong>: React uses a virtual DOM to improve performance. Instead of directly manipulating the browser's DOM, React updates a virtual recodesentation of it. When changes occur, it efficiently updates only the parts of the DOM that need to be changed.
         </li>
         <li style={{ margin: "30px" }}>
           <strong>JSX Syntax</strong>: React uses JSX, a syntax extension that allows you to write HTML-like code within JavaScript. This makes it easier to visualize the structure of the UI and integrates well with the component-based architecture.
