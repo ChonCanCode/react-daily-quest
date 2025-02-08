@@ -7,6 +7,15 @@ const StreetFighter6 = () => {
       <h1>舞Mai</h1>
       <h2>Game Plan</h2>
       <h3>Mid Screen</h3>
+
+      <h4>Drive rush</h4>
+      <ul>
+        <li>DR2LK</li>
+        <ul>
+          <li> DR &gt; 2LK &gt; 2MP &gt; 214HP &gt; 236LK (cornered 623HP)</li>
+        </ul>
+      </ul>
+
       <h4>Corner Carry</h4>
 
       <p>with Hissatse Shinobi Bachi (214K)</p>
