@@ -22,7 +22,9 @@ const StreetFighter6 = () => {
       <ul>
         <li>2 ligthts &gt; 214LK &gt; -27F </li>
         <ul>
-          <li>66 &gt; MP &gt; 2MP &gt; 236MKHK &gt; MP &gt; 623HK (2920 dmg)</li>
+          <li>
+            66 &gt; MP &gt; 2MP &gt; 236MKHK &gt; MP &gt; 623HK (2920 dmg)
+          </li>
         </ul>
       </ul>
 
@@ -30,11 +32,11 @@ const StreetFighter6 = () => {
       <ul>
         <li>light</li>
         <ul>
-          <li></li>
+          <li>HP / MP &gt; 214LP</li>
         </ul>
         <li>light (full charge)</li>
         <ul>
-          <li></li>
+          <li>HP &gt; 214LP</li>
         </ul>
         <li>Medium</li>
         <ul>
@@ -54,15 +56,13 @@ const StreetFighter6 = () => {
         </ul>
         <li>OD</li>
         <ul>
-          <li></li>
+          <li>HP / MP &gt; 214MPHP</li>
         </ul>
         <li>OD (full charge)</li>
         <ul>
           <li></li>
         </ul>
       </ul>
-
-
 
       <h3>Corner Pressure</h3>
       <h3>Corner Escape</h3>
