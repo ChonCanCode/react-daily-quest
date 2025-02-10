@@ -72,3 +72,22 @@ a {
   background-color: var(--burnt-sienna-color);
   transform: scale(1.1); /* Example transform effect */
 }
+
+ol li + p, ul li + p {
+  margin-top: 5px; /* Adjust this value as needed */
+}
+
+li{
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
+
+.highlight-box {
+  color: var(--eggshell-color);
+  padding: 2px; /* Padding inside the box */
+  border-radius: 2px; /* Rounded corners */
+  display: inline-block; /* Ensure the box wraps around the content */
+  margin: 5px 0; /* Margin around the box */
+  font-weight: bold; /* Make the text bold */
+  border: gray 0.5px solid; /* Add a border around the box */
+}
