@@ -5,7 +5,7 @@ const HomePage = () => {
     const challenges = [
         { day: 0, title: 'React Concepts' },
         { day: 1, title: 'What is React?' },
-        { day: 2, title: 'How to setup React on Windows' },
+        { day: 2, title: 'How to review a React project?' },
         { day: 3, title: 'How do the files work within a React project?' },
         { day: 4, title: 'How to apply style in React.' }
     ];
