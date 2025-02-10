@@ -42,6 +42,18 @@ const Day2 = () => {
             This is the root HTML file that loads the React application in the browser:{" "}
             <span className="highlight-box">index.html</span>.
           </p>
+          <code>
+            {`<body>
+  <div id="root"></div>
+  <script type="module" src="./src/main.tsx"></script>
+</body>`}
+          </code>
+          <p>Why Examine index.html?
+Mounting Point: The div with the id root is where your React application will be rendered. It's important to ensure this element exists and has the correct id.
+
+Script Inclusion: The script tag that includes main.tsx is crucial because it initializes your React application. Any issues with this script tag (e.g., incorrect path) will prevent your app from loading.
+
+Meta Tags and Favicon: Meta tags and the favicon link are important for SEO, accessibility, and user experience. They ensure your app displays correctly on different devices and browsers.</p>
         </li>
 
         <li>
