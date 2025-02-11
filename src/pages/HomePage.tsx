@@ -6,13 +6,13 @@ const HomePage = () => {
         { day: 0, title: 'React Concepts' },
         { day: 1, title: 'What is React?' },
         { day: 2, title: 'How to review a React project?' },
-        { day: 3, title: 'How do the files work within a React project?' },
-        { day: 4, title: 'How to apply style in React.' }
+        { day: 3, title: 'TBC' },
+        { day: 4, title: 'TBC' }
     ];
 
     return (
         <div>
-            <h1>Daily Challenges</h1>
+            <h1>React Daily</h1>
             <ul>
                 {challenges.map((challenge) => (
                     <li className="no-bullets" key={challenge.day}>
