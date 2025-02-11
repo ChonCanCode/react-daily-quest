@@ -18,6 +18,41 @@ const Git = () => {
             <li>Open Source: Git is open-source software, which means it is free to use, modify, and distribute. The Git community actively contributes to its development and maintenance.</li>
             <li>Integration: Git integrates with popular code hosting platforms like GitHub, GitLab, and Bitbucket, providing additional features like issue tracking, pull requests, and continuous integration.</li>
         </ol>
+
+        <h2>Basic Git Commands:</h2>
+        <code>
+        # Check current branch
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+          $ git branch</p>
+
+        # Create and switch to a new branch
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+        $ git checkout -b feature-branch</p>
+
+        # Make changes, then add and commit them
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+        $ git checkout -b feature-branch</p>
+
+        # Push the branch to the remote repository
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+        $ git add . <br />$ git commit -m "Add new feature"</p>
+
+        # Switch back to the main branch
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+        $ git checkout main</p>
+
+        # Merge the feature branch into the main branch
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+        $ git merge feature-branch</p>
+
+        # Delete the feature branch locally
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+        $ git branch -d feature-branch</p>
+
+        # Delete the feature branch from the remote repository
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+        $ git push origin --delete feature-branch</p>
+        </code>
       </>
     );
   };
