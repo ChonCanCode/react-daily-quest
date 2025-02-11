@@ -9,6 +9,7 @@ import TypeScript from "./concepts/TypeScript";
 import Props from "./concepts/Props";
 import Vite from "./concepts/Vite";
 import StreetFighter6 from "./projects/StreetFighter6";
+import Git from "./concepts/Git";
 
 const App = () => {
   return (
@@ -23,7 +24,8 @@ const App = () => {
       <Route path="/props" element={<Props />} />
       <Route path="/vite" element={<Vite />} />
       <Route path="/projects/streetfighter6" element={<StreetFighter6/>} /> 
-    </Routes>
+      <Route path="/git" element={<Git/>} /> 
+      </Routes>
   );
 };
 
