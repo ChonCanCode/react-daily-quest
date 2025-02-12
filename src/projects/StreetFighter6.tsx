@@ -28,15 +28,15 @@ const StreetFighter6 = () => {
         </ul>
       </ul>
 
-      <p>with Fire Ball Game (214P)</p>
+      <p>with Fire Ball Game (236P)</p>
       <ul>
         <li>light</li>
         <ul>
-          <li>HP / MP &gt; 214LP</li>
+          <li>HP / MP &gt; 236LP</li>
         </ul>
         <li>light (full charge)</li>
         <ul>
-          <li>HP &gt; 214LP</li>
+          <li>HP &gt; 236LP</li>
         </ul>
         <li>Medium</li>
         <ul>
@@ -56,7 +56,7 @@ const StreetFighter6 = () => {
         </ul>
         <li>OD</li>
         <ul>
-          <li>HP / MP &gt; 214MPHP</li>
+          <li>HP / MP &gt; 236MPHP</li>
         </ul>
         <li>OD (full charge)</li>
         <ul>
@@ -65,6 +65,16 @@ const StreetFighter6 = () => {
       </ul>
 
       <h3>Corner Pressure</h3>
+      <p>236LK -27F oki</p>
+      <ul>
+        <li>Counter Throw</li>
+        <ol>
+          <li>Shimmy = 66 &gt; 4 &gt; HP &gt; 236MPHP(Hold) &gt; 214LP &gt; 214LP &gt; 623HP</li>
+        </ol>
+      </ul>
+
+
+
       <h3>Corner Escape</h3>
 
       <h2>Frame Data</h2>
