@@ -1,12 +1,33 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
 
-const Git = () => {
+const CLI = () => {
     return (
       <>
         <Link to="/">Home Page</Link> 
-        <h1>What is Git?</h1>
-        <p>Git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It is a popular choice among software developers and teams for managing source code and tracking changes in projects.</p>
+        <h1>What is CLI?</h1>
+        <p>CLI stands for Command Line Interface. It is a text-based interface used to interact with software and operating systems by typing commands into a console or terminal.</p>
+
+        <h2>Common CLI Commands:</h2>
+        <code>
+        # List files and directories:
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>$ ls</p>
+
+        # Change directory:
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>$ cd /path/to/directory</p>
+
+        # Create a new directory:
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>$ mkdir new-directory</p>
+
+        # Remove a file:
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>$ rm file.txt</p>
+
+        # Remove a directory and its contents:
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>$ rm -r directory</p>
+        </code>
+
+
         <h2>Key Features of Git:</h2>
         <ol>
             <li>Distributed Version Control: Git allows each developer to have a local copy of the entire project repository. This enables them to work offline, commit changes, and merge code independently.</li>
@@ -52,9 +73,22 @@ const Git = () => {
         # Delete the feature branch from the remote repository
         <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
         $ git push origin --delete feature-branch</p>
+
+        # Pull the latest changes from the remote repository
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+        $ git pull origin main</p>
+
+        # Push changes to remote repository
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+        $ git push origin feature-branch</p>
+
+        # Check the status of your working directory
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+        $ git status</p>
+
         </code>
       </>
     );
   };
   
-  export default Git;
+  export default CLI;

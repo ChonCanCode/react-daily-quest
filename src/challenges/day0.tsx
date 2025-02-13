@@ -28,7 +28,7 @@ const Day0 = () => {
           <Link to="/Props">What is Props?</Link>
         </li>
         <li>
-          <Link to="/Git">What is Git?</Link>
+          <Link to="/CLI">What is CLI?</Link>
         </li>
       </ul>
     </>

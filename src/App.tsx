@@ -9,7 +9,7 @@ import TypeScript from "./concepts/TypeScript";
 import Props from "./concepts/Props";
 import Vite from "./concepts/Vite";
 import StreetFighter6 from "./projects/StreetFighter6";
-import Git from "./concepts/Git";
+import CLI from "./concepts/CLI";
 
 const App = () => {
   return (
@@ -24,7 +24,7 @@ const App = () => {
       <Route path="/props" element={<Props />} />
       <Route path="/vite" element={<Vite />} />
       <Route path="/projects/streetfighter6" element={<StreetFighter6/>} /> 
-      <Route path="/git" element={<Git/>} /> 
+      <Route path="/cli" element={<CLI/>} /> 
       </Routes>
   );
 };
