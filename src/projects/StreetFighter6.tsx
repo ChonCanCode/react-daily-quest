@@ -63,7 +63,7 @@ const StreetFighter6 = () => {
           <li>HP / MP &gt; 236MPHP</li>
         </ul>
         <li>OD (full charge)</li>
-        <ul>
+        <ul>  
           <li></li>
         </ul>
       </ul>
