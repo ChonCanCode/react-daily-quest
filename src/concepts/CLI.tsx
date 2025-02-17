@@ -120,10 +120,43 @@ const CLI = () => {
           $ git push origin feature-branch
         </p>
         # Check the status of your working directory
-        <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>$ git status</p>
-      </code>
-    </>
-  );
-};
+        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
+        $ git status</p>
+        </code>
 
-export default CLI;
+      <h2>Why use Branches</h2>
+      <p>Using branches in Git is a powerful way to manage different features, bug fixes, or versions of your project. Branches allow you to work on multiple tasks simultaneously without interfering with the main codebase.</p>
+      
+      <ol>
+        <li>Isolation:</li>
+        <ul>
+          <li>Branches allow you to isolate your work on a specific feature or bug fix from the main codebase.</li>
+          <li>This prevents unfinished or experimental code from affecting the stable version of your project.</li>
+        </ul>
+        
+        <li>Parallel Developement:</li>
+        <ul>
+          <li>Multiple developers can work on different features or fixes simultaneously without conflicts.</li>
+          <li>Each developer can create their own branch and merge changes back into the main branch when ready.</li>
+        </ul>
+
+        <li>Version Control:</li>
+        <ul>
+          <li>Branches help manage different versions of your project.</li>
+          <li>You can create branches for releases, hotfixes, or experimental features.</li>
+        </ul>
+
+        <li>Safe Experimentation:</li>
+        <ul>
+          <li>You can experiment with new ideas or technologies in a branch without risking the stability of the main codebase.</li>
+          <li>If the experiment fails, you can simply delete the branch without affecting the main project!</li>
+        </ul>
+
+      </ol>
+
+
+      </>
+    );
+  };
+  
+  export default CLI;
