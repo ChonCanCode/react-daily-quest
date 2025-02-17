@@ -52,7 +52,11 @@ const StreetFighter6 = () => {
         </ul>
         <li>Heavy (full charge)</li>
         <ul>
-          <li></li>
+          <li>
+            To open up defense on croucher, full charge on dash over head range.
+            Use overhead after full charge to open up and let the fan drop to
+            extend the opening to open up for light confirm.
+          </li>
         </ul>
         <li>OD</li>
         <ul>
@@ -69,11 +73,12 @@ const StreetFighter6 = () => {
       <ul>
         <li>Counter Throw</li>
         <ol>
-          <li>Shimmy = 66 &gt; 4 &gt; HP &gt; 236MPHP(Hold) &gt; 214LP &gt; 214LP &gt; 623HP</li>
+          <li>
+            Shimmy = 66 &gt; 4 &gt; HP &gt; 236MPHP(Hold) &gt; 214LP &gt; 214LP
+            &gt; 623HP
+          </li>
         </ol>
       </ul>
-
-
 
       <h3>Corner Escape</h3>
 
