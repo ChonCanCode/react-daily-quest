@@ -64,7 +64,7 @@ const StreetFighter6 = () => {
         </ul>
         <li>OD (full charge)</li>
         <ul>  
-          <li></li>
+          <li>Spammable afte HP</li>
         </ul>
       </ul>
 
