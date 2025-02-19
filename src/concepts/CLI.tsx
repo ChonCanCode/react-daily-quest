@@ -120,43 +120,97 @@ const CLI = () => {
           $ git push origin feature-branch
         </p>
         # Check the status of your working directory
-        <p style={{color:` #E07A5F`, marginTop: `-5px`}}>
-        $ git status</p>
-        </code>
+        <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>$ git status</p>
+      </code>
+
+      <h2>Uploading a project to GitHub</h2>
+      <code>
+        #Create a remote repository on GitHub & obtain the repository URL
+        <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>
+          https://github.com/ChonCanCode/###.git
+        </p>
+        #Create a new react file
+        <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>
+          npm create vite@latest i-am-project-name --template react
+        </p>
+        #Change directory to the project folder
+        <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>
+          cd i-am-project-name
+        </p>
+        #Initialize the git repository
+        <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>git init</p>
+        #Add all files to the staging area
+        <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>git add .</p>
+        #Commit the changes
+        <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>
+          git commit -m "Initial commit"
+        </p>
+        #Add the remote repository URL
+        <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>
+          git remote add origin https://github.com/ChonCanCode/###.git
+        </p>
+        #Push the changes to the remote repository
+        <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>
+          git push -u origin main
+        </p>
+      </code>
 
       <h2>Why use Branches</h2>
-      <p>Using branches in Git is a powerful way to manage different features, bug fixes, or versions of your project. Branches allow you to work on multiple tasks simultaneously without interfering with the main codebase.</p>
-      
+      <p>
+        Using branches in Git is a powerful way to manage different features,
+        bug fixes, or versions of your project. Branches allow you to work on
+        multiple tasks simultaneously without interfering with the main
+        codebase.
+      </p>
+
       <ol>
         <li>Isolation:</li>
         <ul>
-          <li>Branches allow you to isolate your work on a specific feature or bug fix from the main codebase.</li>
-          <li>This prevents unfinished or experimental code from affecting the stable version of your project.</li>
+          <li>
+            Branches allow you to isolate your work on a specific feature or bug
+            fix from the main codebase.
+          </li>
+          <li>
+            This prevents unfinished or experimental code from affecting the
+            stable version of your project.
+          </li>
         </ul>
-        
+
         <li>Parallel Developement:</li>
         <ul>
-          <li>Multiple developers can work on different features or fixes simultaneously without conflicts.</li>
-          <li>Each developer can create their own branch and merge changes back into the main branch when ready.</li>
+          <li>
+            Multiple developers can work on different features or fixes
+            simultaneously without conflicts.
+          </li>
+          <li>
+            Each developer can create their own branch and merge changes back
+            into the main branch when ready.
+          </li>
         </ul>
 
         <li>Version Control:</li>
         <ul>
           <li>Branches help manage different versions of your project.</li>
-          <li>You can create branches for releases, hotfixes, or experimental features.</li>
+          <li>
+            You can create branches for releases, hotfixes, or experimental
+            features.
+          </li>
         </ul>
 
         <li>Safe Experimentation:</li>
         <ul>
-          <li>You can experiment with new ideas or technologies in a branch without risking the stability of the main codebase.</li>
-          <li>If the experiment fails, you can simply delete the branch without affecting the main project!</li>
+          <li>
+            You can experiment with new ideas or technologies in a branch
+            without risking the stability of the main codebase.
+          </li>
+          <li>
+            If the experiment fails, you can simply delete the branch without
+            affecting the main project!
+          </li>
         </ul>
-
       </ol>
+    </>
+  );
+};
 
-
-      </>
-    );
-  };
-  
-  export default CLI;
+export default CLI;
