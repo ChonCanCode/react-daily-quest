@@ -152,10 +152,9 @@ const CLI = () => {
         #Push the changes to the remote repository
         <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>
           git push -u origin main
-
+        </p>
         #Discard unstagged changes
         <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>git checkout .</p>
-        </p>
       </code>
 
       <h2>Why use Branches</h2>
