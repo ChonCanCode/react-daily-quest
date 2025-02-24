@@ -121,6 +121,9 @@ const CLI = () => {
         </p>
         # Check the status of your working directory
         <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>$ git status</p>
+
+        # Fetch Updates from the Remote Repository
+        <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>$ git fetch</p> 
       </code>
 
       <h2>Uploading a project to GitHub</h2>
@@ -155,6 +158,8 @@ const CLI = () => {
         </p>
         #Discard unstagged changes
         <p style={{ color: ` #E07A5F`, marginTop: `-5px` }}>git checkout .</p>
+
+        
       </code>
 
       <h2>Why use Branches</h2>
